@@ -480,7 +480,7 @@
         
         .informacion-contacto h3 {
             font-weight: bold;
-            font-size: 3rem;
+            font-size: 4rem;
             text-align: center;
             padding-bottom: 5rem;
         }
@@ -489,6 +489,10 @@
             text-align: justify;
             font-size: 2.3rem;
             padding-bottom: 1rem;
+        }
+        
+        .footer-contacto {
+            bottom: 0;
         }
         
         .fa-envelope {
@@ -516,5 +520,9 @@
             .informacion-contacto p {
                 text-align: justify;
                 font-size: 3rem;
+                padding-bottom: 3rem;
+            }
+            .footer-contacto {
+                padding-bottom: 0;
             }
         }
