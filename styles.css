@@ -55,6 +55,10 @@
             font-size: 2.8rem;
         }
         
+        h5 {
+            font-size: 2.2rem;
+        }
+        
         img {
             max-width: 100%;
         }
@@ -151,7 +155,7 @@
                 text-decoration: none;
                 padding-top: 2rem;
                 padding-right: 1rem;
-                font-size: 1.8rem;
+                font-size: 3rem;
                 text-align: center;
                 display: inline;
                 padding-right: 1.5rem;
@@ -166,6 +170,9 @@
                 text-underline-position: below;
                 color: green;
                 width: 10rem;
+            }
+            .site-header h5 {
+                font-size: 2.8rem;
             }
         }
         
@@ -520,9 +527,37 @@
             .informacion-contacto p {
                 text-align: justify;
                 font-size: 3rem;
-                padding-bottom: 3rem;
+                padding-bottom: 1rem;
             }
-            .footer-contacto {
-                padding-bottom: 0;
+            .footer-section {
+                bottom: 0;
+            }
+        }
+        
+        @media (min-width: 1200px) {
+            .footer-section {
+                padding-top: 2rem;
+            }
+            .main-contact-footer {
+                position: relative;
+            }
+        }
+        
+        @media (max-width: 320px) {
+            .main-contact-footer {
+                position: relative;
+            }
+            .barra a {
+                color: white;
+                text-decoration: none;
+                text-align: center;
+                display: inline-block;
+                font-size: 2rem;
+                padding-right: 0.8rem;
+                font-weight: 600;
+            }
+            .informacion-contacto p {
+                font-size: 2rem;
+                padding-bottom: 1rem;
             }
         }
