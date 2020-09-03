@@ -544,6 +544,7 @@
             .main-contact-footer {
                 position: relative;
                 width: 100%;
+                padding-top: 10rem;
             }
         }
         
@@ -562,6 +563,5 @@
             }
             .informacion-contacto p {
                 font-size: 2rem;
-                padding-bottom: 1rem;
             }
         }
