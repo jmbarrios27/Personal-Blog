@@ -286,16 +286,18 @@
             font-size: 2rem;
             display: inline-block;
             align-items: center;
+            width: 100%;
         }
         
         .contenedor-anuncios {
-            column-gap: 1rem;
+            column-gap: 0.5rem;
         }
         
         .anuncio p {
-            width: 95%;
+            width: 90%;
             padding-left: 1rem;
             padding-right: 1rem;
+            text-align: left;
         }
         
         .anuncio a {
@@ -317,18 +319,19 @@
                 display: block;
                 justify-content: center;
                 text-align: justify;
+                padding-bottom: 4rem;
             }
             .contenedor-anuncios {
                 display: grid;
                 grid-template-columns: 50% 50%;
-                column-gap: 5rem;
-                row-gap: 10rem;
-                border: 2px;
+                column-gap: 2rem;
+                row-gap: 3rem;
+                border: 1px;
                 width: 100%;
                 justify-items: center;
-            }
-            .contenedor-anuncios {
                 border: 2px;
+                padding-right: 1rem;
+                padding-left: 1rem;
             }
             .anuncio a {
                 display: inline-block;
@@ -340,10 +343,10 @@
                 width: 90%;
             }
             .contenido-anuncio h3 {
-                text-align: justify;
+                text-align: left;
                 font-size: 2.3rem;
                 font-weight: bold;
-                padding-right: 1rem;
+                padding-right: 2rem;
             }
         }
         /*-----------------------Resume----------------------*/
@@ -527,19 +530,20 @@
             .informacion-contacto p {
                 text-align: justify;
                 font-size: 3rem;
-                padding-bottom: 1rem;
+                padding-bottom: 11rem;
             }
             .footer-section {
                 bottom: 0;
             }
         }
         
-        @media (min-width: 1200px) {
+        @media (min-width: 768px) {
             .footer-section {
                 padding-top: 2rem;
             }
             .main-contact-footer {
                 position: relative;
+                width: 100%;
             }
         }
         
