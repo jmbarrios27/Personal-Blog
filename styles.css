@@ -57,6 +57,8 @@
         
         h5 {
             font-size: 2.2rem;
+            text-decoration: none;
+            color: white;
         }
         
         img {
@@ -93,6 +95,7 @@
             margin: 4px 2px;
             cursor: pointer;
             font-weight: 600;
+            text-transform: uppercase;
         }
         
         .btn-primario {
@@ -102,6 +105,8 @@
         .btn-primario:hover {
             background-color: darkred;
             color: white;
+            transform: scale(1.1);
+            transition: all 0.5s ease;
         }
         
         .btn-secundario {
@@ -112,6 +117,8 @@
         .btn-secundario:hover {
             color: white;
             background-color: darkblue;
+            transform: scale(1.1);
+            transition: all 0.5s ease;
         }
         /*Barra de navegación*/
         
@@ -169,18 +176,24 @@
             .fa-github:hover {
                 text-underline-position: below;
                 color: green;
-                width: 10rem;
             }
             .site-header h5 {
                 font-size: 2.8rem;
             }
         }
         
-        .site-logo h4 {
+        .site-logo a h4 {
             font-family: 'Open Sans', sans-serif;
-            font-weight: 400;
+            font-weight: bold;
+            text-decoration: none;
+            text-decoration-line: none;
         }
-        /*Image on index*/
+        
+        .site-header a:hover {
+            text-decoration: none;
+            text-decoration-line: none;
+            text-decoration-color: green;
+        }
         
         .index-image {
             /* <a href='https://www.freepik.es/fotos/comida'>Foto de Comida creado por rawpixel.com - www.freepik.es</a>*/
@@ -308,6 +321,13 @@
         
         .anuncio img {
             width: 100%;
+            filter: grayscale();
+        }
+        
+        .anuncio img:hover {
+            transform: scale(1.1) rotate(1deg);
+            transition: all 0.5s ease-in-out;
+            filter: brightness();
         }
         
         @media (min-width: 768px) {
@@ -521,6 +541,8 @@
         .fa-instagram:hover,
         .fa-whatsapp:hover {
             color: red;
+            transform: scale(1.1);
+            transition: all 0.5 ease-in-out;
         }
         
         @media (min-width: 768px) {
